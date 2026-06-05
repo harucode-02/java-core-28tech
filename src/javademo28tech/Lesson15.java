@@ -10,10 +10,10 @@ public class Lesson15 {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        if(a * 2 < b){
+        if (a * 2 < b) {
             System.out.println(n * a);
         } else {
-            if(n % 2 == 0){
+            if (n % 2 == 0) {
                 System.out.println((n / 2) * b);
             } else {
                 System.out.println((n / 2) * b + a);
