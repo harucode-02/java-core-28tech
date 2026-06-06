@@ -1,8 +1,8 @@
-package javademo28tech;
+package Conditionals_Operators;
 
 import java.util.Scanner;
 
-public class Lesson06 {
+public class Exercise006_ConditionalPractice {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();

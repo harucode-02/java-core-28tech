@@ -1,8 +1,8 @@
-package javademo28tech;
+package Conditionals_Operators;
 
 import java.util.Scanner;
 
-public class Lesson14 {
+public class Exercise014_StudentGradeClassification {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

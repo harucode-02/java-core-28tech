@@ -1,8 +1,8 @@
-package javademo28tech;
+package Conditionals_Operators;
 
 import java.util.Scanner;
 
-public class Lesson11 {
+public class Exercise011_TriangleTypeCheck {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

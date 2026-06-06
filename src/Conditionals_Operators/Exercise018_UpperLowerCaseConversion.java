@@ -1,8 +1,8 @@
-package javademo28tech;
+package Conditionals_Operators;
 
 import java.util.Scanner;
 
-public class Lesson18 {
+public class Exercise018_UpperLowerCaseConversion {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

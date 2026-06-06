@@ -1,8 +1,8 @@
-package javademo28tech;
+package Conditionals_Operators;
 
 import java.util.Scanner;
 
-public class Lesson02 {
+public class Exercise002_ExpressionCalculation2 {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long a = scanner.nextLong();

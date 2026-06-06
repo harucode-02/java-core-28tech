@@ -1,8 +1,8 @@
-package javademo28tech;
+package Conditionals_Operators;
 
 import java.util.Scanner;
 
-public class Lesson05 {
+public class Exercise005_EuclideanDistance {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int x1 = scanner.nextInt();
