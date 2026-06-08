@@ -1,4 +1,16 @@
 package Introduction;
 
+import java.util.Scanner;
+
 public class Exercise012_FunctionFxy {
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        long x = sc.nextLong();
+        long y = sc.nextLong();
+
+        System.out.println(5 * x + 2 * y + x * y);
+
+        sc.close();
+    }
 }
