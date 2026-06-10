@@ -19,7 +19,7 @@ public class Exercise010_MiddleDigit {
            for(int i = 0; i < count / 2; i++){
                original = original / 10;
            }
-            System.out.println(original % 10);
+           System.out.println(original % 10);
         }else{
             System.out.println("NOT FOUND");
         }
