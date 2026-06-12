@@ -16,6 +16,7 @@ public class Exercise036_SolveEquation {
             if((n - a * i) % b == 0){
                 System.out.println("YES");
                 check = true;
+                break;
             }
         }
         if(!check) {
