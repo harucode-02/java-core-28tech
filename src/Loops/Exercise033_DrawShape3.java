@@ -46,7 +46,6 @@ public class Exercise033_DrawShape3 {
             System.out.println();
         }
 
-
         sc.close();
     }
 
