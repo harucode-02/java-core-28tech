@@ -2,7 +2,7 @@ package Conditionals_Operators;
 
 import java.util.Scanner;
 
-public class Excercise041 {
+public class Excercise041_ConditionalPractice {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

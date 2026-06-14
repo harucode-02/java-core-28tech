@@ -10,9 +10,9 @@ public class Exercise024_GeometricSequence {
         long c = sc.nextLong();
         long d = sc.nextLong();
 
-        if(b % a == 0){
+        if (b % a == 0) {
             long q = b / a;
-            if (b * q == c && c * q == d){
+            if (b * q == c && c * q == d) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");
