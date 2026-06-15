@@ -12,8 +12,9 @@ public class Exercise029_TheGenerosity {
         int c4 = sc.nextInt();
         int c5 = sc.nextInt();
 
-        System.out.println((c1 + c2 + c3 + c4 + c5) % 5 == 0 && (c1 + c2 + c3 + c4 + c5) / 5 != 0
-                                ? (c1 + c2 + c3 + c4 + c5) / 5 : -1);
+        System.out.println((c1 + c2 + c3 + c4 + c5) % 5 == 0
+                           && (c1 + c2 + c3 + c4 + c5) / 5 != 0
+                           ? (c1 + c2 + c3 + c4 + c5) / 5 : -1);
         sc.close();
     }
 }

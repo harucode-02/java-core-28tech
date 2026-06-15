@@ -13,7 +13,8 @@ public class Exercise028_SplitTheBill {
 
         int each = (a + b + c  + n) / 3;
 
-        System.out.println((a + b + c + n) % 3 == 0 && each >= a && each >= b && each >= c ? "YES" : "NO");
+        System.out.println((a + b + c + n) % 3 == 0 &&
+                          each >= a && each >= b && each >= c ? "YES" : "NO");
 
         sc.close();
     }

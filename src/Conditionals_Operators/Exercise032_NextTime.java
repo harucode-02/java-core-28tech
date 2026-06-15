@@ -10,12 +10,13 @@ public class Exercise032_NextTime {
         int m = sc.nextInt();
         int k = sc.nextInt();
 
-        int total = h * 28 + m + k;
-        int remain = total % 784;
-        int a = remain / 28;
-        int b = remain % 28;
+        int currentTime = h * 28 + m;
+        int afterTime = currentTime + k;
 
-        System.out.printf("%02dh:%02dm", a, b);
+        int hour = (afterTime / 28) % 28;
+        int minute = afterTime % 28;
+
+        System.out.printf("%02dh:%02dm", hour, minute);
 
         sc.close();
     }

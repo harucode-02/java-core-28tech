@@ -11,11 +11,11 @@ public class Exercise036_SumCalculation {
         int Digit;
         int sumDigit = 0;
 
-        for(int i = 1; i <= n; i++){
+        for (int i = 1; i <= n; i++) {
             char c = sc.next().charAt(0);
-            if(Character.isLetter(c)){
+            if (Character.isLetter(c)) {
                 countAlpha++;
-            } else if(Character.isDigit(c)){
+            } else if (Character.isDigit(c)) {
                 Digit = c - '0';
                 sumDigit += Digit;
             }

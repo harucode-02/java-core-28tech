@@ -9,11 +9,11 @@ public class Exercise035_ElectricityBillCalculation {
         int n = sc.nextInt();
 
         if(n >= 1000) {
-            System.out.println((n * 4500) + 1200000);
+            System.out.println((n * 4500) + 1_200_000);
         } else if (n >= 800) {
-            System.out.println((n * 3900) + 900000);
+            System.out.println((n * 3900) + 900_000);
         } else if (n >= 500) {
-            System.out.println((n * 3700) + 800000);
+            System.out.println((n * 3700) + 800_000);
         } else {
             System.out.println((n * 3300));
         }
