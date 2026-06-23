@@ -2,7 +2,7 @@ package Array1D;
 
 import java.util.Scanner;
 
-public class Exercise028_CountPairs1 {
+public class Exercise029_CountPairs2 {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -13,20 +13,16 @@ public class Exercise028_CountPairs1 {
             arr[i] = sc.nextInt();
         }
 
-        int k = sc.nextInt();
+        int minDiff = Integer.MAX_VALUE;
 
-        int sumIJ;
-        int countCouple = 0;
         for(int i = 0; i < n; i++){
             for(int j = i + 1; j < n; j++){
-                sumIJ = arr[i] + arr[j];
-                if(sumIJ == k){
-                    countCouple++;
-                }
+                int temp = Math.abs(arr[i] - arr[j]);
+                minDiff = Math.min(temp, minDiff);
             }
         }
 
-        System.out.println(countCouple);
+        System.out.println(minDiff);
 
         sc.close();
     }
