@@ -26,7 +26,6 @@ public class Exercise039_SymmetricArray {
         if (check) {
             System.out.println("YES");
         }
-
         sc.close();
     }
 }
