@@ -15,9 +15,9 @@ public class Exercise043_InsertArray {
             arr[i] = sc.nextInt();
         }
 
-        for (int i = n - 1; i >= k - 1; i--) {
-            arr[i + 1] = arr[i];
-        }
+            for (int i = n - 1; i >= k - 1; i--) {
+                arr[i + 1] = arr[i];
+            }
 
         arr[k - 1] = x;
 
