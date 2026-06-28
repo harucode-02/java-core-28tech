@@ -24,11 +24,11 @@ public class Exercise053_InsertArray2 {
             arrA[i + m] = arrA[i];
         }
 
-        for (int i = 0; i < m; i++){
+        for (int i = 0; i < m; i++) {
             arrA[p + i] = arrB[i];
         }
 
-        for(int i = 0; i < n + m; i++){
+        for (int i = 0; i < n + m; i++) {
             System.out.print(arrA[i] + " ");
         }
 
