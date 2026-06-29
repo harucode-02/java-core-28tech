@@ -14,8 +14,8 @@ public class Exercise054_RotateLeft {
             arr[i] = sc.nextInt();
         }
 
+        k %= n; // in case (k>=n)
         int[] temp = new int[k];
-        k %= n;
 
         for (int i = 0; i < k; i++){
             temp[i] = arr[i];
