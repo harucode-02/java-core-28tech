@@ -14,13 +14,28 @@ public class Exercise048_MarkingArray1 {
             arr[i] = sc.nextInt();
         }
 
-        HashSet<Integer> set = new HashSet<>();
-
-        for (int i = 0; i < n; i++) {
-            set.add(arr[i]);
+        int dem = 0;
+        for(int i = 0; i < n; i++){
+            boolean found = false;
+            for(int j = 0; j < i; j++){
+                if(arr[i] == arr[j]){
+                    found = true;
+                    break;
+                }
+            }
+            if(!found){
+                dem++;
+            }
         }
+        System.out.println(dem);
 
-        System.out.println(set.size());
+//        HashSet<Integer> set = new HashSet<>();
+//
+//        for (int i = 0; i < n; i++) {
+//            set.add(arr[i]);
+//        }
+//
+//        System.out.println(set.size());
 
         sc.close();
     }

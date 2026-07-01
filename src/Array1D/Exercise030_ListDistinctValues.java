@@ -14,14 +14,14 @@ public class Exercise030_ListDistinctValues {
         }
 
         for (int i = 0; i < n; i++) {
-            boolean check = false;
+            boolean found = false;
             for (int j = 0; j <= i - 1; j++) {
                 if (arr[j] == arr[i]) {
-                    check = true;
+                    found = true;
                     break;
                 }
             }
-            if (!check) {
+            if (!found) {
                 System.out.print(arr[i] + " ");
             }
         }
